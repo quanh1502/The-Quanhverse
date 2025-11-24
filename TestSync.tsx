@@ -8,7 +8,7 @@ export default function TestSync() {
   const [status, setStatus] = useState("Đang kết nối..."); // Thêm dòng trạng thái
   
   // Đảm bảo tên này khớp 100% với Firebase bạn vừa tạo
-  const docRef = doc(db, "test_collection", "shared_note");
+  const docRef = doc(db, "demo", "notes");
 
   useEffect(() => {
     // 1. Lắng nghe dữ liệu
