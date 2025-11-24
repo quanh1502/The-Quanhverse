@@ -9,8 +9,9 @@ const firebaseConfig = {
   projectId: "the-quanhverse",
   storageBucket: "the-quanhverse.firebasestorage.app",
   messagingSenderId: "821696410018",
-  appId: "1:821696410018:web:c281d20a3c07be6da542fb"
+  appId: "1:821696410018:web:c281d20a3c07be6da542fb",
   measurementId: "G-3D8PVE6C1G"
+ 
 };
 
 const app = initializeApp(firebaseConfig);
